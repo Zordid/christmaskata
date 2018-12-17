@@ -1,6 +1,6 @@
 # It's Christmas Time
 
-## Part 1 - Once upon a time there was a tree...
+## 1st Advent - Once upon a time there was a tree...
 It's Christmas time and everybody needs a Christmas tree, right? We have a customer who needs many, many trees for the upcoming festivity!
 
 ### 1.1
@@ -86,7 +86,7 @@ Given a 10 times 10 character canvas, make sure multiple draw commands can be st
 
 To prove your wood nursery capabilities - and to have some fun - show your skills by planting 10 trees at random positions on a larger canvase and celebrate your achievement with a Christmas cookie!
 
-## Part 2 - Fight the competitors
+## 2nd Advent - Quality measures
 Our customer gets trees from all around the world. Because he does trust us and our tests to deliver only perfectly shaped trees, he needs us to make sure all trees can be verified by him a second time.
 
 ### 2.1
@@ -120,13 +120,13 @@ The simple ```verfiyTree``` function does not yet know anything about origins of
 This would result in a possibility to ask something like "is there a tree at origin (x,y) with the height h".
 e.g. ```verifyTree(canvas, x, y, height): boolean```.  Think about what edge cases to detect. Are there implicit rules to be obeyed in order to savely detect a tree next to another tree? Does your function handle trees close to each other, but not touching, correctly? 
 
-## Part 3 - You grow them, you find them... 
+## 3rd Advent - You grow them, you find them... 
 
 Almost there. With the tools you got now, it should be possible to detect all of the trees in a given canvas correctly. What is needed to scan the complete area for trees?
 Write a function that takes a canvas and reports back all of the contained trees' origins!
 ```scanForTrees(canvas): list of origins```
 
-## Part 4 - It's Christmas Day!
+## 4th Advent - Christmas can come!
 You are finally done. But we cannot celebrate Christmas unless we decorate our trees!
 Each tree must carry a star on its tip, everybody knows that.
 
@@ -149,7 +149,7 @@ becomes
 
 Try to take the example input forest1.txt and forest2.txt from the GitHub repo to test your decoration skills!
 
-# Merry Christmas!
+# Merry Christmas and a happy new Year to all of you!
 
 
 
